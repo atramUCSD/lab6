@@ -26,7 +26,7 @@ function addProjectDetails(e) {
 	// get rid of 'project' from the front of the id 'project3'
 	var idNumber = projectID.substr('project'.length);
 
-	var URL = ("http://localhost:3000/project/" + idNumber);
+	var URL = ("https://lab6-atram.herokuapp.com/" + idNumber);
 
 	$.get(URL, addProject);
 
